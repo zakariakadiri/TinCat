@@ -1,0 +1,158 @@
+#title {
+    background-color: #ff4c68;
+    height: 55rem;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px 5px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    padding-bottom: 5rem;
+}
+
+.btn {
+    margin: 10% 5% 10% 1%;
+}
+
+.title-img {
+    width: 55%;
+   transform: rotate(15deg);
+}
+
+#features {
+    background-color: #fff;
+    padding: 6.25rem 12.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+.f-div {
+    text-align: center;
+}
+
+.f-h3 {
+    font-size: 2.2rem;
+}
+
+.f-p {
+   padding:  0 20%;
+   color: gray;
+}
+
+.f-icon {
+    margin-bottom: 1.5rem;
+    color: orange;
+}
+
+.f-icon:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+    background-color: #ff4c68;
+    text-align: center;
+    
+}
+
+.t-img {
+    width: 10%;
+    height: 10%;
+    border-radius: 100%;
+}
+
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.press-img {
+    width: 15%;
+    margin: 1rem;
+}
+
+.t-h2 {
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    margin-bottom: 2rem;
+}
+
+.t-em {
+    color: #fff;
+}
+
+.carousel-item {
+    padding: 12.5rem;
+}
+
+#pricing {
+padding: 7rem;
+text-align: center;
+}
+
+.pricing-card {
+    padding: 3% 2%;
+    text-align: center;
+}
+
+.pricing-h2 {
+font-size: 2.5rem;
+}
+
+.pricing-p{
+color: gray;
+}
+
+#cta {
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.cta-h3 {
+    color: #fff;
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+}
+
+#footer {
+    padding: 2% 15%;
+    text-align: center;
+}
+
+.f-ico {
+    padding: 0.5% 0.5%;
+}
+
+@media (max-width:1020px) {
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+    #title {
+        height: auto;
+        text-align: center;
+    }
+}
